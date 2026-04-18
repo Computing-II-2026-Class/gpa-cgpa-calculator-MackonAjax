@@ -59,15 +59,15 @@ int main(void) {
 
 
     /* Read 16 scores */
-    printf("\n\n------------PLEASE ENTER SEMESTER ONE MARKS-------------");
+    /// printf("\n\n------------PLEASE ENTER SEMESTER ONE MARKS-------------");
     for(int d = 0; d < 8; d++){
-        printf("\n%s:\t", sem1_course_codes[d]);
+        /// printf("\n%s:\t", sem1_course_codes[d]);
         scanf(" %d", &sem1_marks[d]);
     }
 
-    printf("\n\n------------PLEASE ENTER SEMESTER TWO MARKS-------------");
+    /// printf("\n\n------------PLEASE ENTER SEMESTER TWO MARKS-------------");
     for(int d = 0; d < 8; d++){
-        printf("\n%s:\t", sem2_course_codes[d]);
+        /// printf("\n%s:\t", sem2_course_codes[d]);
         scanf(" %d", &sem2_marks[d]);
     }
 
@@ -226,7 +226,7 @@ int main(void) {
         strcpy(cgpa_classification, "Sorry, error occurred.");
 
     /* Display full academic report */
-    printf("\n\n---------------SUMMARY OF RESULTS-----------------");
+    /// printf("\n\n---------------SUMMARY OF RESULTS-----------------");
     printf("\nSemester I GPA: %.2f", semester_one_gpa);
     printf("\nSemester II GPA: %.2f", semester_two_gpa);
     printf("\nCGPA: %.2f", cgpa);
