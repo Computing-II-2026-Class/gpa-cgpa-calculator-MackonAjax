@@ -10,7 +10,9 @@ int main(void) {
 
 
     /* Declare variables here */
-    float semester_one_gpa, semester_two_gpa, cgpa;
+    float semester_one_gpa = 0;
+    float semester_two_gpa = 0;
+    float cgpa = 0;
     char cgpa_classification[25];
 
     // SEMESTER ONE VARIABLES
