@@ -76,11 +76,11 @@ int main(void) {
     // VALIDATION FOR SEM 1
     for(int x = 0; x < 8; x++){
         if(sem1_marks[x] < 0 || sem1_marks[x] > 100){
-            printf("\nYour marks for %s is out of range.", sem1_course_codes[x]);
+            printf("\nInvalid score entered");
             return 0;
         }
         else{
-            printf("\nValidation for %s complete.", sem1_course_codes[x]);
+            // printf("\nValidation for %s complete.", sem1_course_codes[x]);
         }
     }
 
@@ -88,11 +88,11 @@ int main(void) {
     // VALIDATION FOR SEM 2
     for(int x = 0; x < 8; x++){
         if(sem2_marks[x] < 0 || sem2_marks[x] > 100){
-            printf("\nYour marks for %s is out of range.", sem2_course_codes[x]);
+            printf("\nInvalid score entered");
             return 0;
         }
         else{
-            printf("\nValidation for %s  complete.", sem2_course_codes[x]);
+            // printf("\nValidation for %s  complete.", sem2_course_codes[x]);
         }
     }
 
