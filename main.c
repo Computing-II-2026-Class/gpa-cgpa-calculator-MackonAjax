@@ -226,6 +226,11 @@ int main(void) {
         strcpy(cgpa_classification, "Sorry, error occurred.");
 
     /* Display full academic report */
+    printf("\n\n---------------SUMMARY OF RESULTS-----------------");
+    printf("\nSemester I GPA: %.2f", semester_one_gpa);
+    printf("\nSemester II GPA: %.2f", semester_two_gpa);
+    printf("\nCGPA: %.2f", cgpa);
+    printf("\nClassification: %s", cgpa_classification);
 
     printf("\n\n---------------SEMESTER ONE-----------------");
     for(int x = 0; x < 8; x++){
@@ -243,11 +248,7 @@ int main(void) {
                         sem2_weighted_contribution[x]);
     }
 
-    printf("\n\n---------------SUMMARY OF RESULTS-----------------");
-    printf("\nSemester I GPA: %.2f", semester_one_gpa);
-    printf("\nSemester II GPA: %.2f", semester_two_gpa);
-    printf("\nCGPA: %.2f", cgpa);
-    printf("\nClassification: %s", cgpa_classification);
+
 
     return 0;
 }
